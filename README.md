@@ -1,2 +1,2 @@
 # birthdayapp.info
-Website for Birthday app
+Website for Birthday app.
