@@ -3,3 +3,4 @@ url: "http://birthdayapp.info"
 encoding: UTF-8
 gems:
   - jekyll-sitemap
+  - jekyll-last-modified-at
