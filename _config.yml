@@ -1,3 +1,5 @@
 name: Site for Birthday app
 url: "http://birthdayapp.info"
 encoding: UTF-8
+gems:
+  - jekyll-sitemap
