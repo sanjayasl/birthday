@@ -1,24 +1,68 @@
 body {
 	padding: 0;
 	margin: 0;
-	font-family: Roboto,sans-serif;
+	font-family: sans-serif;
 }
 
 .content {
-	-webkit-box-shadow: 0px 0px 21px -1px rgba(190,0,0,0.95);
-	-moz-box-shadow: 0px 0px 21px -1px rgba(190,0,0,0.95);
-	box-shadow: 0px 0px 21px -1px rgba(190,0,0,0.95);
-	margin: 0 auto;
-	max-width: 500px;
-	background-color:#eee;
+	margin: 10px auto 0;
+	max-width: 768px;
 }
 
 header {
-	padding: 15px;
-	font-size: 18px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+header .logo {
+	width: 150px;
+}
+
+header h3 {
+	font-weight: normal;
+	font-size: 22px;
+}
+
+header .birthday {
+	color: rgba(190,0,0,0.95);
+}
+
+.box {
+	display: inline-block;
+	text-align: center;
+	margin: 10px;
+	width: calc(100% - 20px);
+}
+
+.box strong {
+	font-size: 20px;
+}
+
+.box img {
+	width: 100%;
+	margin-top: 20px;
+
+	-webkit-box-shadow: 0px 0px 21px -1px rgba(190,0,0,0.95);
+	-moz-box-shadow: 0px 0px 21px -1px rgba(190,0,0,0.95);
+	box-shadow: 0px 0px 21px -1px rgba(190,0,0,0.95);
+}
+
+@media (min-width:768px) {
+	.box {
+		width: calc(50% - 20px);
+		float: left;
+	}
+}
+
+.clear {
+	clear: both;
 }
 
 footer {
 	text-align: center;
-	padding: 15px;
+	margin-bottom: 20px;
+}
+
+footer img {
+	width: 250px;
 }
