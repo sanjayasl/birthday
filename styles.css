@@ -3,6 +3,16 @@ body {
 	margin: 0;
 	font-family: sans-serif;
 	background: rgba(0, 0, 0, .06);
+	color: #303030;
+}
+
+a {
+	color: #268bd2;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 .content {
