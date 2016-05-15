@@ -73,11 +73,11 @@ header .birthday {
 	clear: both;
 }
 
-footer {
+.button {
 	text-align: center;
-	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
-footer img {
+.button img {
 	width: 250px;
 }
