@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Birthday</string>
+    <string name="turns">turns</string>
+    <string name="widget_desc">Birthday widget</string>
+    <string name="no_birthdays">No birthdays found :(</string>
+    <string name="action_settings">Settings</string>
+    <string name="pref_notify_today">Notify on birthday</string>
+    <string name="pref_notify_today_sum">You will receive notification if today is your contact\'s birthday</string>
+    <string name="pref_notify_tomorrow">Notify the day before a birthday</string>
+    <string name="pref_notify_tomorrow_sum">You will receive notification if tomorrow is your contact\'s birthday</string>
+    <string name="notification_title">%s\'s birthday</string>
+    <string name="notification_today">Today is %s\'s birthday</string>
+    <string name="notification_tomorrow">Tomorrow is %s\'s birthday</string>
+    <string name="today">today</string>
+    <string name="tomorrow">tomorrow</string>
+    <string name="days_left">%s days left</string>
+    <string name="days_left_ru">%s days left</string>
+    <string name="days_left_ru2">%s days left</string>
+</resources>

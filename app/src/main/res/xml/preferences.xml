@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="pref_notify_today"
+        android:title="@string/pref_notify_today"
+        android:summary="@string/pref_notify_today_sum"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_notify_tomorrow"
+        android:title="@string/pref_notify_tomorrow"
+        android:summary="@string/pref_notify_tomorrow_sum"
+        android:defaultValue="true" />
+</PreferenceScreen>

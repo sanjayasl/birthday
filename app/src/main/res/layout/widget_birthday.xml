@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/widget"
+    android:theme="@style/AppTheme">
+
+    <!-- ListView to be shown on widget -->
+    <StackView
+        android:id="@+id/listViewWidget"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:loopViews="true"
+        />
+
+    <RelativeLayout
+        android:id="@+id/emptyWidget"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/ic_social_cake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_above="@+id/textView"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:textSize="24sp"
+            android:text="@string/no_birthdays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView" />
+    </RelativeLayout>
+</FrameLayout>

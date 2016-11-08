@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Birthday</string>
+    <string name="action_settings">Настройки</string>
+    <string name="days_left">%s дней осталось</string>
+    <string name="days_left_ru">%s дня осталось</string>
+    <string name="days_left_ru2">%s день остался</string>
+    <string name="no_birthdays">Не найдено ничего :(</string>
+    <string name="notification_title">%s - день рождения</string>
+    <string name="notification_today">%s - сегодня день рождения</string>
+    <string name="notification_tomorrow">%s - завтра день рождения</string>
+    <string name="pref_notify_today">Сообщите на день рождения</string>
+    <string name="pref_notify_today_sum">Вы будете получать уведомления в день рождения контактов</string>
+    <string name="pref_notify_tomorrow">Сообщите накануне дня рождения</string>
+    <string name="pref_notify_tomorrow_sum">Вы будете получать уведомления накануне дня рождения контактов</string>
+    <string name="today">сегодня</string>
+    <string name="tomorrow">завтра</string>
+    <string name="turns">будет</string>
+    <string name="widget_desc">Birthday widget</string>
+</resources>

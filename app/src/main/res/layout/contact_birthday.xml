@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contact"
+    android:layout_width="fill_parent"
+    android:layout_height="83dp"
+    android:padding="@dimen/app_margin">
+
+    <ImageView
+        android:src="@drawable/ic_placeholder"
+        android:id="@+id/photo"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginRight="@dimen/app_margin"
+        android:layout_marginEnd="@dimen/app_margin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/name"
+        tools:text="Gevorg Harutyunyan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/text"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/photo"
+        android:layout_toEndOf="@+id/photo" />
+
+    <TextView
+        android:id="@+id/birthday"
+        android:textColor="@color/text"
+        tools:text="May 5, 1987"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignStart="@+id/name" />
+
+    <TextView
+        android:id="@+id/days"
+        android:textColor="@color/text"
+        tools:text="15 days left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_alignBottom="@+id/photo"
+        android:layout_alignLeft="@+id/birthday"
+        android:layout_alignStart="@+id/birthday" />
+
+    <TextView
+        android:id="@+id/turns"
+        android:textColor="@color/text"
+        android:text="@string/turns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/name"
+        android:layout_alignBottom="@+id/name"
+        android:layout_alignRight="@+id/age"
+        android:layout_alignEnd="@+id/age" />
+
+    <TextView
+        android:id="@+id/age"
+        android:textColor="@color/text"
+        tools:text="29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="33sp"
+        android:layout_below="@+id/turns"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

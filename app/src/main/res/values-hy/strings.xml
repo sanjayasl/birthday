@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Birthday</string>
+    <string name="action_settings">Կարգավորում</string>
+    <string name="widget_desc">Birthday widget</string>
+    <string name="days_left">%s օրից</string>
+    <string name="days_left_ru">%s օրից</string>
+    <string name="days_left_ru2">%s օրից</string>
+    <string name="no_birthdays">Ոչինչ չի գտնվել :(</string>
+    <string name="notification_title">%s - ծննդյան օր</string>
+    <string name="notification_today">%s - այսօր ծննդյան օրն է</string>
+    <string name="notification_tomorrow">%s - վաղը ծննդյան օրն է</string>
+    <string name="pref_notify_today">Տեղեկացնել ծննդյան օրը</string>
+    <string name="pref_notify_today_sum">Դուք կստանաք ծանուցում ծննդյան օրը</string>
+    <string name="pref_notify_tomorrow">Տեղեկացնել ծննդյան օրվա նախօրեին</string>
+    <string name="pref_notify_tomorrow_sum">Դուք կստանաք ծանուցում ծննդյան օրվա նախօրեին</string>
+    <string name="today">այսօր</string>
+    <string name="tomorrow">վաղը</string>
+    <string name="turns">կլինի</string>
+</resources>
